@@ -1,0 +1,9 @@
+speech_recognition
+pyaudio
+gtts
+mysql.connector
+google.generativeai
+webbrowser
+smtplib
+pywhatkit
+playsound
