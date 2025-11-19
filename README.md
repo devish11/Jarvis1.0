@@ -1,108 +1,89 @@
-Jarvis 1.0 – Python Voice Assistant
+# Jarvis 1.0
 
-Jarvis 1.0 is a modular voice-controlled personal assistant built using Python.
-It supports speech recognition, automated system tasks, command handling, database logging, and customizable AI-based responses.
-Designed for beginners and developers who want to understand how real voice assistants work under the hood.
+Jarvis 1.0 is a modular, voice-driven automation system built using Python.  
+It provides a structured framework for speech recognition, command execution, system automation, and database-based task handling.
 
-🚀 Features
+The project is designed with a clean architecture that separates core components like:  
+- Voice Input/Output  
+- Command Processing  
+- AI Logic  
+- Database Interaction  
+- Utility Functions  
+- Configuration Management  
 
-🎙 Voice Input using SpeechRecognition
+---
 
-🔊 Text-to-Speech Output
+## Overview
 
-🧠 Command Execution Engine (open websites, system tasks, queries etc.)
+Jarvis listens for voice input, interprets the intent, and executes the appropriate system or application command.  
+The architecture allows for easy extensibility: add new skills, workflows, or integration with external APIs.
 
-🗄️ Database Integration (SQLite/MySQL based on your setup)
+---
 
-⚙️ Configurable Modules for easy customization
+## Core Features
 
-🧩 Modular Architecture — add new skills easily
+- Speech-to-Text & Text-to-Speech  
+- Configurable command routing  
+- System automation  
+- Database logging & retrieval  
+- Extendable AI logic  
+- Modular, maintainable codebase  
 
-🔌 API-ready structure for adding Gemini/GPT/Weather etc.
+---
 
-📁 Project Structure
+## Project Structure
+
 Jarvis1.0/
-│── ai.py              # AI logic & query handling
-│── commands.py        # All supported commands
-│── config.py          # App configuration settings
-│── db.py              # Database operations
-│── db_setup.py        # Database initialization
-│── main.py            # Main entry point
-│── utils.py           # Helper functions
-│── voice.py           # Speech input/output
-│── working.py         # Additional workflows
-└── requirement.txt    # Project dependencies
+├── ai.py
+├── commands.py
+├── config.py
+├── db.py
+├── db_setup.py
+├── main.py
+├── utils.py
+├── voice.py
+├── working.py
+└── requirement.txt
 
-🔧 Installation
-Clone the Repository
-git clone https://github.com/devish11/Jarvis1.0.git
-cd Jarvis1.0
+---
 
-Install Dependencies
-pip install -r requirement.txt
+## Installation
 
-(Optional) Initialize Database
-python db_setup.py
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/devish11/Jarvis1.0.git  
+   cd Jarvis1.0
 
-▶️ How to Run
-python main.py
+2. Install dependencies:
+   ```bash
+   pip install -r requirement.txt  
 
+3. (Optional) Initialize database:
+    ```bash
+    python db_setup.py  
 
-Jarvis will start listening for your commands such as:
+4. Start the assistant:
+    ```bash
+    python main.py  
 
-“Open YouTube”
+---
 
-“What’s the time?”
+## Customization
 
-“Search for programming tutorials”
+1. Define new commands inside commands.py
 
-“Play music”
+2. Configure voice behavior, language, and speed in config.py
 
-⚙️ Customization
-Add New Commands
+3. Extend AI logic in ai.py
 
-Open commands.py
-
-Create a new function (example):
-
-def greet():
-    vc.speak("Hello! How can I assist you today?")
+4. Integrate APIs (Gemini, GPT, Weather, etc.)
 
 
-Add it to your command mapping.
+---
 
-Modify Voice & Settings
+## License
 
-Edit config.py for:
+This project is licensed under the [MIT License](./LICENSE).
 
-Voice type
-
-Language
-
-Speed
-
-Activation behavior
-
-Improve AI Logic
-
-Enhance ai.py with NLP or external APIs like Gemini or GPT.
-
-🤝 Contributing
-
-Contributions, ideas, and pull requests are welcome.
-You can help by:
-
-Adding more commands
-
-Improving accuracy
-
-Integrating APIs
-
-Fixing bugs
-
-Enhancing documentation
-
-📜 License
-
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute it.
+---
+   
