@@ -33,17 +33,19 @@ The architecture allows for easy extensibility: add new skills, workflows, or in
 
 ## Project Structure
 
+```
 Jarvis1.0/
-├── ai.py
-├── commands.py
-├── config.py
-├── db.py
-├── db_setup.py
-├── main.py
-├── utils.py
-├── voice.py
-├── working.py
-└── requirement.txt
+ ├── ai.py
+ ├── commands.py
+ ├── config.py
+ ├── db.py
+ ├── db_setup.py
+ ├── main.py
+ ├── utils.py
+ ├── voice.py
+ ├── working.py
+ └── requirement.txt
+```
 
 ---
 
