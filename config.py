@@ -5,11 +5,11 @@ DB_HOST = "localhost"
 DB_NAME= "jarvis_backup"
 
 # API Keys
-API_KEY = "AIzaSyCy8IQFVern24ArcQSVFaxfRRnHZlTc26k" 
+API_KEY = ""  # Google Gemini Api Key
     
 # Email Configs
-mail = "devishkumar.kumar@gmail.com"
-password = "mnpk xjdi halz pccr" # App password for gmail
+mail = "" # Your Mail
+password = "" # App password for gmail
 
 # Website Configs
 sites = [
@@ -17,4 +17,5 @@ sites = [
     ["wikipedia", "https://www.wikipedia.com"],
     ["google", "https://www.google.com"],
     ["github", "https://www.github.com"],
+
     ]
