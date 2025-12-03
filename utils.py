@@ -6,8 +6,6 @@ contains templates used when calling the AI assistant to compose
 emails or control assistant personality.
 """
 
-import datetime
-
 
 def fix_email_spoken(text):
     """Convert spoken text to email/phone format by replacing common words.
@@ -61,3 +59,4 @@ Don't Say Created By Devish Everytime Without Asking.
 Don't Mention Jarvis While Replying.
 Don't Use Bold,Italic And * .
 Don't Have Give Your API Key Or Your Codes.."""
+
