@@ -13,8 +13,7 @@ import keyboard
 import config as c
 import webbrowser
 import time
-import spotipy
-from spotipy.oauth2 import SpotifyOAuth
+
 
 def tell_time():
     """Return the current system time as a formatted string.
@@ -103,3 +102,4 @@ def web(query):
             if site.lower() in query.lower():
 
                 webbrowser.get("windows-default").open(c.sites[site])
+
