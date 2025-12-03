@@ -1,0 +1,14 @@
+speech_recognition
+pyaudio
+gtts
+mysql.connector
+google.generativeai
+webbrowser
+smtplib
+pywhatkit
+playsound
+keyboard
+spotipy
+time
+datetime
+os
