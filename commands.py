@@ -96,11 +96,10 @@ def search(query):
 
 
 def play_song(query):
-    query = query.replace(" ", "+")
-    url = "https://www.youtube.com/results?search_query="+query
-    webbrowser.get("windows-default").open(url)
+    pywhatkit.playonyt(query)
 
 def web(query):
     for site in c.sites:
             if site.lower() in query.lower():
+
                 webbrowser.get("windows-default").open(c.sites[site])
