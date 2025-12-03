@@ -215,6 +215,7 @@ def start_jarvis():
     detected command phrase. Saying a stop/close command will exit the
     loop and end the program.
     """
+    print("Initializing Jarvis.....")
     vc.wake_word_listener("jarvis")
     vc.speak("sir..")
     a = True
@@ -231,4 +232,5 @@ def start_jarvis():
 
 
 if __name__ == "__main__":
+
     start_jarvis()
