@@ -217,7 +217,7 @@ def start_jarvis():
     """
     print("Initializing Jarvis.....")
     vc.wake_word_listener("jarvis")
-    vc.speak("sir..")
+    vc.speak("Hello sir , How May I Help You?")
     a = True
     while a:
         query = vc.take_command().lower()
@@ -234,3 +234,4 @@ def start_jarvis():
 if __name__ == "__main__":
 
     start_jarvis()
+
